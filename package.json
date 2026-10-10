@@ -1,0 +1,31 @@
+{
+  "name": "game-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor-community/admob": "^8.2.0",
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "cordova-facebook-audience-network": "^4.22.1",
+    "cordova-plugin-extension": "^1.6.0",
+    "cordova-plugin-facebook-ads": "^4.22.2",
+    "cordova-plugin-startapp-ads": "^1.1.0",
+    "cordova-plugin-unityads": "^0.1.0",
+    "jszip": "^3.10.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
