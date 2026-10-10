@@ -1,0 +1,14 @@
+95:        <input type="text" id="userFacebookId" value="2457356" placeholder="Enter user's Facebook ID here...">
+99:        <input type="text" id="userMetaId" value="2457356" placeholder="Enter user's Meta ID here...">
+142:    "ADMOB_APP_ID": "ca-app-pub-2687803208650412~8824346889",
+143:    "ADMOB_AD_UNIT_ID_1": "ca-app-pub-2687803208650412/3120504774",
+144:    "ADMOB_AD_UNIT_ID_2": "6081847",
+145:    "START_IO_APP_ID": "209634202",
+146:    "UNITY_GAME_ID": "800386783",
+147:    "UNITY_PLACEMENT_ID": "18968513796763",
+148:    "META_APP_ID_ADMIN": "2457356",
+149:    "ADSTERRA_ZONE_ID": "6096272"
+326:    let userFacebookId = document.getElementById('userFacebookId').value.trim() || "2457356";
+327:    let userMetaId = document.getElementById('userMetaId').value.trim() || "2457356";
+354:       - User Facebook ID: ${userFacebookId}
+355:       - User Meta ID: ${userMetaId}

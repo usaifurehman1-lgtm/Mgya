@@ -1,0 +1,28 @@
+{
+  "master": {
+    "admob": "ca-app-pub-2687803208650412/3120504774",
+    "unity": "18968513796763",
+    "startio": "209634202",
+    "meta": "2457356"
+  },
+  "user": {
+    "admob": null,
+    "unity": null,
+    "startio": null,
+    "meta": null
+  },
+  "plugins": {
+    "admob": "@capacitor-community/admob",
+    "startio": "cordova-plugin-startapp-ads",
+    "unity": "cordova-plugin-unityads",
+    "meta": "cordova-facebook-audience-network"
+  },
+  "rotation": [
+    "admob",
+    "unity",
+    "startio",
+    "meta"
+  ],
+  "intervalSeconds": 14,
+  "adminCreatorSkip": true
+}
